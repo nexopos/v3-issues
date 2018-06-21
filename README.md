@@ -1,4 +1,4 @@
-## NexoPOS 3.x Issues Repositor
+## NexoPOS 3.x Issues Repository
 This respository is a public repository to submit issues and feautre request. Anyone can have access to it to submit issues, but only thoses having a valid CodeCanyon purchase code will have a priority. In order to download project, a one click update will be implemented on NexoPOS 3.x and premium users will be able to update their system without having to manage technical stuffs.
 
 ## Before Submitting An issue
