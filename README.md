@@ -20,7 +20,7 @@ The title of the issue should have a prefix similar to this : `Issue : creating 
 In some case, we'll have to take a look at your system, that might need extra informations which can only be provided privately to the dedicated support team:
 
 Skype : blair_jersyer
-Whatsapp : +237656988008
+Whatsapp : +237656988008<br>
            +237655889904
 Email : contact@nexopos.com
 Facebook : https://www.facebook.com/NexoPOS/
