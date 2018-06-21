@@ -19,13 +19,10 @@ The title of the issue should have a prefix similar to this : `Issue : [your tit
 
 In some case, we'll have to take a look at your system, that might need extra informations which can only be provided privately to the dedicated support team:
 
-**Skype** : blair_jersyer
-
-**Whatsapp** : +237656988008
-
-               +237655889904
-           
-**Email** : contact@nexopos.com
+**Skype** : blair_jersyer</br>
+**Whatsapp** : +237656988008</br>
+               +237655889904</br>
+**Email** : contact@nexopos.com</br>
 **Facebook** : https://www.facebook.com/NexoPOS/
 
 ## About the Feature And Issues Submittion Request
