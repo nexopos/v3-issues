@@ -15,15 +15,17 @@ In order to help you, if you face some issue, we might need to have the followin
 - Some Details about your hosting (only if it's a shared, vpn or dedicated hosting).
 - You should provide a clear description (step by step) which can help us to reproduce the issue on a fresh environment.
 
-The title of the issue should have a prefix similar to this : `Issue : creating a customer doesn't works` for example.
+The title of the issue should have a prefix similar to this : `Issue : [your title]`, for example `Issue : creating a customer doesn't works`.
 
 In some case, we'll have to take a look at your system, that might need extra informations which can only be provided privately to the dedicated support team:
 
-Skype : blair_jersyer
-Whatsapp : +237656988008<br>
+**Skype** : blair_jersyer
+
+**Whatsapp** : +237656988008
            +237655889904
-Email : contact@nexopos.com
-Facebook : https://www.facebook.com/NexoPOS/
+           
+**Email** : contact@nexopos.com
+**Facebook** : https://www.facebook.com/NexoPOS/
 
 ## About the Feature And Issues Submittion Request
 We usually thanks all our customers which help us by submitting issues or sharing some new ideas. It's 3 times nothing, but a small reward offered to the most commited. The reward might consist of a PayPal money transfer, a discount on one of our items or services or any other equivalent goods.
