@@ -1,9 +1,11 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-username: Provide a username as created on Nexo Platform (https://api.nexopos.com/register)
 
 ---
+
+**Username**
+Provide a username as created on Nexo Platform: https://api.nexopos.com/register. Only the owner of the account can POST an issue.
 
 **Describe the bug**
 A clear and concise description of what the bug is.
