@@ -1,6 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
+username: Provide a username as created on Nexo Platform (https://api.nexopos.com/register)
 
 ---
 
