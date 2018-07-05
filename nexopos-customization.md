@@ -29,7 +29,15 @@ but if you have any idea, sharing that will be really useful for us. You can als
 explicit implementation like so : "add a new menu under the settings named 'Foo'..."
 
 ### How is customization price set ?
-The price depends on your needs. And we only accept payments made through our Payment Gateway (mentionned on the invoice). We won't then accept any alternative payment (buying more licences for example).
+The price depends on your needs. And we only accept payments made through our Payment Gateway (mentionned on the invoice). We won't then accept any alternative payment (buying more licences for example). There are however some fixed price as follows : 
+
+| Services                                                       | Price         |
+| -------------------------------------------------------------- | ------------- |
+| Creating a dedicated module (only once for each customization) | 30 USD        |
+| Customizing a receipt (Adjusting the UI)                       | 20 USD        |
+| Modification involving Database                                | 40 USD (from) |
+| Modification involving adjusting the UI                        | 10 USD (from) |
+| Creating a new component + settings                            | 60 USD (from) |
 
 ### Regarding the compatibility with updates
 The customization is made to ensure the compatibility with the upcoming version, but your customization won't always be compatible, 
