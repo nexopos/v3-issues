@@ -28,6 +28,9 @@ You might have a need, but that need should be merged to the current application
 but if you have any idea, sharing that will be really useful for us. You can also share some images of the implementation, or any 
 explicit implementation like so : "add a new menu under the settings named 'Foo'..."
 
+### How is customization price set ?
+The price depends on your needs. And we only accept payments made through our Payment Gateway (mentionned on the invoice). We won't then accept any alternative payment (buying more licences for example).
+
 ### Regarding the compatibility with updates
 The customization is made to ensure the compatibility with the upcoming version, but your customization won't always be compatible, 
 as the application grows. Upgrading your application might cost the some additionnal fees specially, after the project delivery.
@@ -42,3 +45,9 @@ If you request a customization, you agree that we are allowed to use any of the 
 - Have NexoPOS fulfilling your needs as soon as possible
 - Since we're the developpers of NexoPOS, the customization has a better ensurance of compatibility
 - You'll receive a priority support
+
+### Contact
+- Email : contact@nexopos.com
+- Whatsapp : https://chat.whatsapp.com/KjGcyqxbmMi9ehRpmLvCUf
+- Skype: blair_jersyer
+- Nexo Platform : https://api.nexopos.com
