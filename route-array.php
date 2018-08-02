@@ -22,6 +22,7 @@ $Routes->get( 'nexo/items/history/{barcode}', 'NexoItemsController@history' );
 $Routes->get( 'nexo/items/stock-adjustment/', 'NexoItemsController@stock_supply' );
 $Routes->get( 'nexo/items', 'NexoItemsController@lists' );
 $Routes->get( 'nexo/items/add', 'NexoItemsController@lists' );
+$Routes->get( 'nexo/items/edit/{id}', 'NexoItemsController@lists' );
 $Routes->get( 'nexo/items/success/{id}', 'NexoItemsController@lists' );
 $Routes->get( 'nexo/items/delete_file/{id}/{filename}', 'NexoItemsController@lists', [ 'defaultParameterRegex' => '[\w|.|-]+' ]);
 $Routes->post( 'nexo/items/export', 'NexoItemsController@lists' );
