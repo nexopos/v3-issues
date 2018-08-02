@@ -1,7 +1,11 @@
 ## Requesting a customization ?
 We're really happy that you've considered upgrading NexoPOS (or Gastro) to add the features 
 that you want to make it fit your business. Before submitting your request, we would like you to take a deep
-loop at the following note.
+loop at the following note. 
+
+## In which cases can you request a customization ?
+Well NexoPOS is a growing POS application. We're usually retreiving ideas from our customers and sometime theses ideas are merged to the core. In fact, all customizations request are likely to be merged to the core specially when it's close to our guidelines. 
+A customization is paid, if the customers would like to see the implementation of his features added as a separate module in a very short time.
 
 ### 1 - Reserved to customers only
 If you want us to customize NexoPOS, obviously you'll need to have a valid purchase code. This can be purchased
@@ -38,6 +42,7 @@ The price depends on your needs. And we only accept payments made through our Pa
 | Modification involving Database                                | 40 USD (from) | 2 - 4 days  |
 | Modification involving adjusting the UI                        | 10 USD (from) | 1 - 2 days  |
 | Creating a new component + settings                            | 60 USD (from) | 3 - 5 days  |
+| Third Party Library (API) integration                          | 60 USD (from) | 3 - 7 days  |
 
 ### Regarding the compatibility with updates
 The customization is made to ensure the compatibility with the upcoming version, but your customization won't always be compatible, 
@@ -53,6 +58,20 @@ If you request a customization, you agree that we are allowed to use any of the 
 - Have NexoPOS fulfilling your needs as soon as possible
 - Since we're the developpers of NexoPOS, the customization has a better ensurance of compatibility
 - You'll receive a priority support
+
+### What we're not doing
+Before moving ahead, you might need to read what is not allowed : 
+
+- The customer cannot require a customization to be made before having a licence. 
+- You might need to take a look at the demo to have a better understand on how that works and based on that you can request a customization. 
+- The price of the customization is NOT included on the price of the licence (purchase code). 
+- We do not deliver licences (purchase code) outside from CodeCanyon. 
+- We do not (yet) deliver trial licences or trial versions for NexoPOS 3.x
+- A customization request once approved by the customer can't be canceled (refunded)
+- The payment of the customization is entirely paid, unless the payment exceed 200 USD. In that case the payment can be made in 2 slices.
+- We're not responsible of the mistakes made by the customer on his explanations. 
+- If the customization has already started, a modification on the requirements might be subject to another deal with the customer. 
+- We have the discretion to approve or not a modification of the requirements already explained by the customer, while the customization is ongoing.
 
 ### Contact
 - Email : contact@nexopos.com
