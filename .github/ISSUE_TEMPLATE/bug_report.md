@@ -4,7 +4,7 @@ about: Create a report to help us improve
 
 ---
 
-**Username** : [your username here]
+**Username** : 
 Provide a username as created on Nexo Platform: https://api.nexopos.com/register. Only the owner of the account can POST an issue.
 
 **Describe the bug**
