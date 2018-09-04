@@ -26,7 +26,7 @@ In some case, we'll have to take a look at your system, that might need extra in
 **Facebook** : https://www.facebook.com/NexoPOS/
 
 ## About the Feature And Issues Submittion Request
-We usually thanks all our customers which help us by submitting issues or sharing some new ideas. It's 3 times nothing, but a small reward offered to the most commited. The reward might consist of a PayPal money transfer, a discount on one of our items or services or any other equivalent goods.
+We usually (not each month) thanks all our customers which help us by submitting issues or sharing some new ideas. It's 3 times nothing, but a small reward offered to the most commited. The reward might consist of a PayPal money transfer, a discount on one of our items or services or any other equivalent goods. When the contest is launched, we have all our customers informed. 
 
 ## Feature Submittion
 We're happy to hear that you want to contribute, and as said before, we're really thankful to all thoses who contribute in anyway. If we have to deal with Feature submittion, it has to be clear in a way we can understand what it's all about.So the Feature Submittion should look like this.
