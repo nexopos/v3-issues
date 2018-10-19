@@ -38,7 +38,7 @@ The price depends on your needs. And we only accept payments made through our Pa
 | Services                                                       | Price         | Realisation | 
 | -------------------------------------------------------------- | ------------- |-------------|
 | Creating a dedicated module (only once for each customization) | 30 USD        | 2 hours     |
-| Customizing a receipt (Adjusting the UI)                       | 20 USD        | 1 - 3 days  |
+| Customizing a receipt (Adjusting the UI)                       | 30 USD        | 1 - 3 days  |
 | Modification involving Database                                | 40 USD (from) | 2 - 4 days  |
 | Modification involving adjusting the UI                        | 10 USD (from) | 1 - 2 days  |
 | Creating a new component + settings                            | 60 USD (from) | 3 - 5 days  |
