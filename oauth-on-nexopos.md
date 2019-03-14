@@ -37,8 +37,12 @@ let assume you're willing to get an access to a scope with the following namespa
  Once the user authorize the request, NexoPOS will redirect back to your callback with the token embeded on the GET variable : key & key_header
  
  The key is the value of the header variable "key_header" which should be send along on each of your incoming request (incoming on NexoPOS). So, the key_header might be something like "X-API-KEY" and the "key" will be a hashed value that should be send on your request : 
+ 
+```
 "key_header" = "key"
-"X-API-KEY" = "[random code]".
+
+"X-API-KEY" = "[random code]"
+```
 
 ## How to use the existing route endpoints
 Most of NexoPOS operation goes through the API endpoint. This works for Gastro as well. Both save their API endpoint on the following files : 
