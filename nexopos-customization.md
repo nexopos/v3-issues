@@ -68,7 +68,7 @@ Before moving ahead, you might need to read what is not allowed :
 - We do not deliver licences (purchase code) outside from CodeCanyon. 
 - We do not (yet) deliver trial licences or trial versions for NexoPOS 3.x
 - A customization request once approved by the customer can't be canceled (refunded)
-- The payment of the customization is entirely paid, unless the payment exceed 200 USD. In that case the payment can be made in 2 slices.
+- The payment of the customization is entirely paid, unless the payment exceed 800 USD. In that case the payment can be made in 2 slices.
 - We're not responsible of the mistakes made by the customer on his explanations. 
 - If the customization has already started, a modification on the requirements might be subject to another deal with the customer. 
 - We have the discretion to approve or not a modification of the requirements already explained by the customer, while the customization is ongoing.
