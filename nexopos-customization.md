@@ -32,7 +32,7 @@ You might have a need, but that need should be merged to the current application
 but if you have any idea, sharing that will be really useful for us. You can also share some images of the implementation, or any 
 explicit implementation like so : "add a new menu under the settings named 'Foo'..."
 
-### How is customization price set ?
+## How is customization price set ?
 The price depends on your needs. And we only accept payments made through our Payment Gateway (mentionned on the invoice). We won't then accept any alternative payment (buying more licences for example). There are however some fixed price as follows : 
 
 | Services                                                       | Price       | Realisation | 
@@ -45,22 +45,22 @@ The price depends on your needs. And we only accept payments made through our Pa
 | Third Party Library (API) integration                          | $ 60 (from) | 3 - 7 days  |
 | Creating a custom report                                       | $ 55 (from) | 4 - 7 days  |
 
-### Regarding the compatibility with updates
+## Regarding the compatibility with updates
 The customization is made to ensure the compatibility with the upcoming version, but your customization won't always be compatible, 
-as the application grows. Upgrading your application might cost the some additionnal fees specially, after the project delivery.
+as the application grows. Upgrading your application might cost the some additionnal fees specially, after the project delivery. It won't be charged if the customization has been merged to the core.
 
-### Regarding the support
+## Regarding the support
 Once the customization is delivered, the customer can still receive a support if the application doesn't work as the customer and our
 team has agreed. We'll also fix any bugs occuring on the customized module. But that free support still valid 2 months after the customization delivery.
 
-### Requesting Private customization
+## Requesting Private customization
 If you request a customization, you agree that we are allowed to use any of the ideas suggested to implemented it on the software so that everyone can benefit from. If NexoPOS has reached his current development level, it's because of others customers who has contributed with ideas, customization request and bug submittion. The point of having to pay for a customization is to ensure that you :
 
 - Have NexoPOS fulfilling your needs as soon as possible
 - Since we're the developpers of NexoPOS, the customization has a better ensurance of compatibility
 - You'll receive a priority support
 
-### What we're not doing
+## What we're not doing
 Before moving ahead, you might need to read what is not allowed : 
 
 - The customer cannot require a customization to be made before having a licence. 
@@ -74,7 +74,7 @@ Before moving ahead, you might need to read what is not allowed :
 - If the customization has already started, a modification on the requirements might be subject to another deal with the customer. 
 - We have the discretion to approve or not a modification of the requirements already explained by the customer, while the customization is ongoing.
 
-### Contact
+## Contact
 - Email : contact@nexopos.com
 - Whatsapp : https://chat.whatsapp.com/KjGcyqxbmMi9ehRpmLvCUf
 - Skype: blair_jersyer
