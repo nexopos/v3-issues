@@ -21,3 +21,34 @@ At this location, we'll add an array with the key pair : verify => false.
 
 
 #### Updating : application/modules/nexo/inc/traits/orders.php
+The part to edit on that file, is quite similar to the previous. We'll then target the line 370. But it might be different as modification might be added on top.
+
+Let's search for "Requests" and this point us straight to the location where we need to edit as we did before.
+
+![adding a modification](https://user-images.githubusercontent.com/5265663/61131195-72e01c00-a4b0-11e9-945b-305fb8f9207e.png)
+
+The modification will be the same. We'll add an array with the key pair : verify => false
+
+```php
+$request    =   Requests::post( site_url( array( 'rest', 'nexo', 'order_payment', $current_order[0][ 'ID' ], store_get_param( '?' ) ) ), [
+     $this->config->item('rest_key_name')    =>  $_SERVER[ 'HTTP_' . $this->config->item('rest_header_key') ]
+ ], array(
+          'author'		=>	$author_id,
+          'date'			=>	date_now(),
+          'payment_type'	=>	$payment[ 'namespace' ],
+          'amount'		=>	$payment[ 'amount' ],
+     'order_code'	=>	$current_order[0][ 'CODE' ],
+     'ref_id'        =>  intval( @$payment[ 'meta' ][ 'coupon_id' ]),
+     'payment_id'    =>  @$payment[ 'meta' ][ 'payment_id' ] ?? null
+ )[
+     'verify'  =>   false // <= here
+ ]);
+
+```
+
+It should be similar to this.
+
+![adding a verification false](https://user-images.githubusercontent.com/5265663/61131738-e6365d80-a4b1-11e9-98fa-d642bfad8aeb.png)
+
+### Warning
+If you proceed to an update these modification will be overwritten, so you'll need to restore these change after each update.
