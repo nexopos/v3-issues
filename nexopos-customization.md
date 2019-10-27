@@ -37,13 +37,13 @@ The price depends on your needs. And we only accept payments made through our Pa
 
 | Services                                                       | Price       | Realisation | 
 | -------------------------------------------------------------- | ----------- |-------------|
-| Creating a dedicated module (only once for each customization) | $ 30        | 2 hours     |
-| Customizing a receipt (Adjusting the UI)                       | $ 30        | 1 - 3 days  |
-| Modification involving Database                                | $ 40 (from) | 2 - 4 days  |
-| Modification involving adjusting the UI                        | $ 10 (from) | 1 - 2 days  |
-| Creating a new component + settings                            | $ 60 (from) | 3 - 5 days  |
-| Third Party Library (API) integration                          | $ 60 (from) | 3 - 7 days  |
-| Creating a custom report                                       | $ 55 (from) | 4 - 7 days  |
+| Creating a dedicated module (only once for each customization) | $ 40        | 2 hours     |
+| Customizing a receipt (Adjusting the UI)                       | $ 45        | 1 - 3 days  |
+| Modification involving Database                                | $ 50 (from) | 2 - 4 days  |
+| Modification involving adjusting the UI                        | $ 25 (from) | 1 - 2 days  |
+| Creating a new component + settings                            | $ 75 (from) | 3 - 5 days  |
+| Third Party Library (API) integration                          | $ 90 (from) | 3 - 7 days  |
+| Creating a custom report                                       | $ 65 (from) | 4 - 7 days  |
 
 ## Regarding the compatibility with updates
 The customization is made to ensure the compatibility with the upcoming version, but your customization won't always be compatible, 
