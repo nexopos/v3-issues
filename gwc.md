@@ -106,12 +106,12 @@ Accept: application/json
 [{
     "tables": [
         {
-            "NAME": string,
-            "ID": number,
-            "STATUS": string,
-            "CURRENT_SEATS_USED": number,
-            "MAX_SEATS": number,
-            "persons": number
+            "NAME": "string",
+            "ID": "number",
+            "STATUS": "string",
+            "CURRENT_SEATS_USED": "number",
+            "MAX_SEATS": "number",
+            "persons": "number"
         }
     ]
     "orders" : [
