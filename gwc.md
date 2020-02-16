@@ -87,10 +87,7 @@ Accept: application/json
 All the data provided on the "data" parameter of the reponse (Ping QR Code Validation on Platform) should be sent to the Gastro installation as POST data. Once done, Gastro will decide or not to close and validate the authentication. However from GWC, the authentication is complete.
 
 ### Retreiving Data
-The data should be collect in a periodic timespan. Retreiving data includes tables, orders with meals. If at this point 
-the Gastro instance returns an error, the application should offer an option to reconnect to the user. Reconnecting involve deleting stored information and
-displaying the scan code page again.
-
+The data should be collect in a periodic timespan. Retreiving data includes tables, orders with meals.
 Here is how the request should be made : 
 
 **Endpoint:** http://gwc.my.nexopos.com/api/gwc/fetch  
@@ -140,3 +137,63 @@ Accept: application/json
     ]
 }]
 ```
+
+If at this point the Gastro instance returns an error, the application should offer an option to reconnect to the user. Reconnecting involve deleting stored information and displaying the scan code page again.
+
+### Update Meal Status
+This endpoint changes the status of a meal. Usually the status changes from "ready" to "collected". Collected means also the has been served. The request should be made as follow : 
+
+**Endpoint:** http://gwc.my.nexopos.com/api/gwc/meal 
+**Method:** POST  
+**Headers:**  
+```
+X-API-KEY: [token value get from the QR code]
+Content-Type: application/json
+Accept: application/json
+```
+
+**Data:**
+```
+{
+  "id": "meal id",
+  "status": "collected"
+}
+
+```
+**Response:**
+```json
+{
+  "status": "success",
+  "message": "the operation was successful"
+}
+```
+The operation could return an error. For that situation GWC should display a snackbar notification what has happened.
+
+### Update Table Status
+This endpoint changes the status of a table. Usually the status changes from "in_use" to "available". The request should be processed as follows :
+
+**Endpoint:** http://gwc.my.nexopos.com/api/gwc/table 
+**Method:** POST  
+**Headers:**  
+```
+X-API-KEY: [token value get from the QR code]
+Content-Type: application/json
+Accept: application/json
+```
+
+**Data:**
+```
+{
+  "id": "meal id",
+  "status": "available"
+}
+
+```
+**Response:**
+```json
+{
+  "status": "success",
+  "message": "the operation was successful"
+}
+```
+The operation could return an error. For that situation GWC should display a snackbar notification what has happened on the table.
