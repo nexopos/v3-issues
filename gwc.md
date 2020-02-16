@@ -113,7 +113,7 @@ Accept: application/json
             "MAX_SEATS": "number",
             "persons": "number"
         }
-    ]
+    ],
     "orders" : [
        {
             "ID" : "int",
@@ -126,13 +126,15 @@ Accept: application/json
             "RESTAURANT_ORDER_TYPE": "dinein | takeaway | delivery",
             "RESTAURANT_ORDER_STATUS": "pending, ongoing, ready",
             "items": [
-                "ID": "number",
-                "RESTAURANT_FOOD_MODIFIERS": "json",
-                "RESTAURANT_FOOD_STATUS": "pending, ongoing, ready, collected",
-                "PRIX": "number",
-                "PRIX_TOTAL": "number",
-                "TOTAL_TAX": "number",
-                "NAME": "string"
+                {
+                    "ID": "number",
+                    "RESTAURANT_FOOD_MODIFIERS": "json",
+                    "RESTAURANT_FOOD_STATUS": "pending, ongoing, ready, collected",
+                    "PRIX": "number",
+                    "PRIX_TOTAL": "number",
+                    "TOTAL_TAX": "number",
+                    "NAME": "string"
+                }
             ]
        }
     ]
