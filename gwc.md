@@ -116,23 +116,23 @@ Accept: application/json
     ]
     "orders" : [
        {
-            "ID" : int
-            "DATE_CREATION" : string
-            "CODE" : string,
-            "TOTAL": number,
-            "SOMME_PERCU": number,
-            "REF_CLIENT": number,
-            "AUTHOR": number,
+            "ID" : "int",
+            "DATE_CREATION" : "string",
+            "CODE" : "string",
+            "TOTAL": "number",
+            "SOMME_PERCU": "number",
+            "REF_CLIENT": "number",
+            "AUTHOR": "number",
             "RESTAURANT_ORDER_TYPE": "dinein | takeaway | delivery",
             "RESTAURANT_ORDER_STATUS": "pending, ongoing, ready",
             "items": [
                 "ID": "number",
                 "RESTAURANT_FOOD_MODIFIERS": "json",
                 "RESTAURANT_FOOD_STATUS": "pending, ongoing, ready, collected",
-                "PRIX": number,
-                "PRIX_TOTAL": number,
-                "TOTAL_TAX": number,
-                "NAME": string
+                "PRIX": "number",
+                "PRIX_TOTAL": "number",
+                "TOTAL_TAX": "number",
+                "NAME": "string"
             ]
        }
     ]
