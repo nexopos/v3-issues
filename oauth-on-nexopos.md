@@ -7,7 +7,23 @@ the be sure that the application requesting the access is reliable and can be tr
 
 Unlike usual Oauth Authorization page, NexoPOS offer a slightly different approach. You need to provide as GET parameters : 
 - a callback as "cb" ie : "?cb=http://yoursystem.com".
-- a scopes parameters as "scopes" ie: "?scopes=scope1,scope2,scopes3"
+- a scopes parameters as "scopes" ie: "?scope=scope1,scope2,scopes3"
+
+So the request shouldbe made to the system where NexoPOS is installed using the following address (as an example).
+`https://yourwebsite.com/oauth?cb=http://yourremoveapp.com&scope=core`
+
+If the user approves the request, you'll be redirected to the callback provided with the token required to perform API request to NexoPOS. Usually the callback URL will look like this: 
+
+`http://yourremoteapp.com/?key=[randomkey]&request_header=[request_header]`
+
+The request header should be available on each request sent to NexoPOS. And the value fo that header should be the [randomkey] provided by the URL.
+
+```
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+X-API-KEY: hjGCLfjlfhsfsBGhIF5SQt2147NxgBFaR5VCMrVk
+X-Requested-With: XMLHttpRequest
+```
+In the preview example, "X-API-KEY" is the [request_header] and the code provided as a value, is the [randomkey]. Request not having these informations will always fails using the API Ressource.
 
 ## How to register a scope
 If you have created a module within NexoPOS, you can define your own scope and register it from the OauthLibrary embeded on NexoPOS.
